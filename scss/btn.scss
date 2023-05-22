@@ -1,0 +1,14 @@
+.c-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 7.5rem;
+    &__link{
+        padding: .5rem;
+        width: 22.5rem;
+        background-color: #BD9035;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

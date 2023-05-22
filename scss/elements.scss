@@ -8,11 +8,14 @@ body{
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     font-weight: $fw-bold;
     font-size: 1rem;
+    background-color: #0C576E;
+    letter-spacing: 3px;
+    line-height: 1.75rem;
 }
 
 .bg::before{
     content: "";
-    background:url("../img/achtergrond.jpg");
+    background:url("../img/achtergrond.png");
     background-size: cover;
     background-position: top;
     position: absolute;
@@ -20,5 +23,6 @@ body{
     right: 0;
     bottom: 0;
     left: 0;
-
+    margin-left: 2rem;
+    z-index: -1;
 }

@@ -1,0 +1,27 @@
+.c-smart{
+    display: flex;
+    justify-content: center;
+    margin-top: 30rem;
+    width: 100%;
+    &__about{
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+
+
+        
+    }
+    &__profession{
+        font-weight: $fw-bold;
+    }
+    &__experts{
+        font-size: .75rem;
+       margin-top: 2rem;
+    }
+    &__img{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+    }
+
+}
