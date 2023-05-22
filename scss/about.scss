@@ -7,9 +7,6 @@
         color: white;
         text-align: center;
         text-transform: uppercase;
-
-
-        
     }
     &__profession{
         font-weight: $fw-bold;
@@ -25,3 +22,21 @@
     }
 
 }
+
+@media only screen and (max-width: 1200px ) {
+    .c-smart{
+        margin-top: 25rem;
+    }
+}
+
+@media only screen and (max-width: 992px ) {
+    .c-smart{
+        margin-top: 20rem;
+    }
+}
+@media only screen and (min-width: 1600px ) {
+    .c-smart{
+        margin-top: 38rem;
+    }
+}
+

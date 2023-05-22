@@ -1,0 +1,36 @@
+.c-profile{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 7.5rem;
+    &__image{
+        width: 10rem;
+        margin-bottom: 1rem;
+    }
+    &__url{
+        position: absolute;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+    }
+    &__linkedIn{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 11.35rem;
+        position: relative;
+        left: 0;
+        top: 0;
+        transition: all .25s ease-out;
+        &:hover{
+            transition: all .25s ease-in;
+            transform: translateY(-.25rem);
+        }
+    }
+    &__btn{
+        margin-top: 7.5rem;
+        padding: 1rem;
+        background-color: orange;
+        text-align: center;
+        width: 25rem;
+    }
+}

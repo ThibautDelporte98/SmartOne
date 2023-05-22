@@ -1,27 +1,24 @@
-.c-profile{
+.c-contact{
     display: flex;
     justify-content: center;
-    width: 100%;
-    margin-top: 7.5rem;
-    &__image{
-        width: 10rem;
-    }
-    &__url{
-        position: absolute;
-        width: 10rem;
-        height: 10rem;
-        border-radius: 50%;
-    }
-    &__linkedIn{
-        position: relative;
-        left: 8.2rem;
-        top: 0;
-    }
-    &__btn{
-        margin-top: 7.5rem;
-        padding: 1rem;
-        background-color: orange;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 2rem;
+    font-weight: $fw-medium;
+    &__info{
+        width: 100%;
         text-align: center;
-        width: 25rem;
     }
+    &__i{
+        a{
+            text-decoration: none;
+            color: white;
+            transition: all .25s ease-out;
+            &:hover{
+                transition: all .25s ease-in;
+                color: #3C3C3B;
+            }
+        }
+    }
+
 }
