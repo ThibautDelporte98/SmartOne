@@ -1,0 +1,2 @@
+# SmartOne
+Landing page 
